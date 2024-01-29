@@ -1,6 +1,20 @@
 import random
 
+"""Esse código gera um número de telefone brasileiro aleatório, 
+    incluindo DDD (Código de Discagem Direta).
+    """
+
 def telefone():
+    """A função utiliza um dicionário ddds_por_estado que mapeia 
+    estados brasileiros para listas de DDDs associados a esses estados. 
+    Em seguida, ela escolhe aleatoriamente um estado, obtém os DDDs 
+    correspondentes a esse estado e, por fim, escolhe aleatoriamente um 
+    DDD e gera um número de telefone aleatório, retornando-o como uma 
+    string formatada.
+
+    Returns:
+        str: Um número de telefone aleatório.
+    """
     ddds_por_estado = {
         'SP': ['11', '12', '13', '14', '15', '16', '17', '18', '19'],
         'RJ': ['21', '22', '24'],
