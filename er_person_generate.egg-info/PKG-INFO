@@ -1,3 +1,15 @@
+Metadata-Version: 2.1
+Name: er_person_generate
+Version: 1.5.0
+Summary: Pacote de geração de dados de pessoas
+Author: Erlanny
+Author-email: erlannyrodrigues@gmail.com
+Keywords: python,person,generate,brasil
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: faker
+
 # er-person-generate: Biblioteca de Geração de Dados Pessoais Fictícios
 
 ![Build](https://img.shields.io/badge/Build-Pass-brightgreen.svg)
